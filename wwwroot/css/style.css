@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DA6E48;
+}
+
+.container {
+    color: black;
+    background-color: #F4D58D;
+    margin-top: 3%;
+    padding: 20px 0;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Checkbox {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.label{
+    color: black;
+    margin-top: 12px;
+}
+
+.topPanels{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timePanel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4D58D;
+    margin-top: 30px;
+    font-size: 25px;
+    width: 200px;
+    height: 80px;
+}
+
+
+.datePanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4D58D;
+    margin-top: 30px;
+    font-size: 25px;
+    height: 80px;
+    width: 200px;
+}
+
+.titlePanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4D58D;
+    margin-top: 30px;
+    font-size: 30px;
+    height: 80px;
+    width: 850px;
+}
